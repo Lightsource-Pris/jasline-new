@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Questrial;
+  overflow-x: hidden;
+}
+
+.navbar-collapse{
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+#brand-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.navbar {
+  padding: 0 10%;
+  width: 100%;
+  background-color: #e7ebec;
+}
+.nav-link {
+  margin-left: 40px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.side-nav {
+  display: flex;
+  font-family: Signika Negative;
+}
+a .fa {
+  margin-right: 2px;
+}
+#foya-nav {
+  color: #a35a3e !important;
+  font-weight: bolder;
+}
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+.blink {
+  text-decoration: blink;
+  animation-name: blinker;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+#form-pay{
+  float: right;
+}
+.paypic{
+    padding-top: 70px;
+    float: left;
+}
+.core-box{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+form .form-group input, 
+	.form-group select{
+	width: 100%;
+	height: 50px;
+	color: #1a202c;
+	background-color: #edf2f7;
+    font-size: 16px;
+    font-weight: bold;
+	border:1px;
+	padding: 15px 10px;
+
+}
+
+p{
+  text-align: center;
+  
+	margin: 50px 0;
+}
+p a{
+	color: white;
+	text-decoration: none;
+}
+footer {
+    color: #fff;
+    background-color: #362d2d;
+    padding: 2% 10% 1% 10%;
+    overflow-x: hidden;
+    font-family: Questrial;
+  }
+  #footer {
+    margin: 0;
+  }
+  .foot-links .nav-link {
+    color: #818181 !important;
+    margin-left: 0;
+    padding-left: 0;
+    font-weight: lighter;
+  }
+  .foot-links .nav-link:hover {
+    color: #f5f8fd !important;
+  }
+  .contact .nav-link {
+    color: #f5f8fd !important;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  footer p {
+    text-align: left;
+    padding-left: 2px;
+  }
+  .footer-heading {
+    font-family: Signika Negative;
+    margin-bottom: 50px;
+  }
+  .contact .nav-link {
+    font-size: 90%;
+    font-weight: lighter;
+  }
+  
+  .copyright {
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #f5f8fd;
+  }
+   @media (max-width: 1540px){
+    .nav-link{
+    margin-left: 15px;
+    font-size: 18px;  
+  }
+  }
+  @media (max-width: 1198px) {
+    .pay-img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  @media (max-width: 576px) {
+    .foot-links .nav-link {
+      color: #f5f8fd !important;
+    }
+  }
+
+
+
+  

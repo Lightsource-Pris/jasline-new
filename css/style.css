@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Questrial;
+  overflow-x: hidden;
+}
+#brand-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.navbar {
+  padding: 0 10%;
+  width: 100%;
+  background-color: #e7ebec;
+}
+.nav-link {
+  margin-left: 40px;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.side-nav {
+  display: flex;
+  font-family: Signika Negative;
+}
+a .fa {
+  margin-right: 2px;
+}
+#foya-nav {
+  color: #a35a3e !important;
+  font-weight: bolder;
+}
+@keyframes blinker {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.2;
+  }
+}
+.blink {
+  text-decoration: blink;
+  animation-name: blinker;
+  animation-duration: 0.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+#jas-heading {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+.jas-p {
+  display: block !important;
+  font-size: 25px;
+}
+.about-us {
+  padding: 5% 10%;
+}
+.heading {
+  text-align: center;
+  font-family: Signika Negative;
+  margin-bottom: 50px;
+}
+.about-content {
+  line-height: 23px;
+}
+.vision-mission {
+  padding: 8% 10%;
+  color: white;
+  background: #0a3556;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+.vision-img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+.mission-img {
+  height: 53px;
+  width: 53px;
+  border-radius: 50%;
+}
+.animated {
+  animation-duration: 1s !important;
+}
+.our-services {
+  padding: 5% 10%;
+}
+.service-section {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.service-heading {
+  font-family: Signika Negative;
+  font-weight: bold;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.service-box {
+  padding: 30px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 15px 0 rgb(68 88 144 / 10%);
+  transition: all 0.3s ease-in-out;
+  width: 300px;
+  height: 350px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.service-box:hover {
+  transform: scale(1.05);
+}
+.core-values {
+  color: white;
+  background-color: #303f4c;
+  padding: 5% 10%;
+  /* background-image: url(img/corev.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.value-heading {
+  font-family: Signika Negative;
+  font-style: normal;
+}
+.core-text {
+  font-size: 80%;
+  font-family: lora;
+  font-style: italic;
+}
+.value-section {
+  margin-bottom: 20px;
+}
+.core-text-img {
+  width: 100%;
+  height: 30px;
+  border-radius: 50%;
+}
+.core-box {
+  display: flex;
+  align-items: center;
+}
+
+.past-events {
+  padding: 5% 15%;
+}
+.carousel-text {
+  text-align: center;
+  color: black;
+  padding: 4%;
+}
+.carousel-item {
+  text-align: center;
+}
+.caro-img {
+  width: 55%;
+  height: 55%;
+}
+.carousel-heading {
+  font-family: Signika Negative;
+  margin-bottom: 20px;
+}
+.carousel-indicators li {
+  background-color: #3f2c2c !important;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #3f2c2c !important;
+  border-radius: 50%;
+}
+
+.upcoming {
+  color: white;
+  background-color: #1f2949;
+  padding: 7% 15%;
+}
+.foya-text {
+  line-height: 30px;
+}
+#vote {
+  color: white;
+}
+
+.our-team {
+  padding: 3% 15%;
+  background-image: url(../img/diamond.png);
+  background-blend-mode: multiply;
+}
+.team-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.team-box {
+  margin-bottom: 20px;
+  width: 300px;
+  margin-right: 30px;
+}
+
+.team-pic {
+  width: 100%;
+  height: 350px;
+}
+.team-info {
+  background-color: #ebebeb;
+  border: 1px solid#cecdcd;
+  padding: 8px;
+  width: 100%;
+}
+.team-title {
+  font-weight: bold;
+  font-family: Lora;
+  font-style: italic;
+}
+
+footer {
+  color: #fff;
+  background-color: #362d2d;
+  padding: 8% 10% 2% 10%;
+  overflow-x: hidden;
+}
+#footer {
+  margin: 0;
+}
+.foot-links .nav-link {
+  color: #818181 !important;
+  margin-left: 0;
+  padding-left: 0;
+}
+.foot-links .nav-link:hover {
+  color: #f5f8fd !important;
+}
+.contact .nav-link {
+  color: #f5f8fd !important;
+  margin-left: 0;
+  padding-left: 0;
+}
+footer p {
+  text-align: left;
+  padding-left: 2px;
+}
+.footer-heading {
+  font-family: Signika Negative;
+  margin-bottom: 50px;
+}
+.contact .nav-link {
+  font-size: 90%;
+}
+
+.copyright {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid #f5f8fd;
+}
+
+
+@media (max-width: 1540px){
+  .nav-link{
+  margin-left: 15px;
+  font-size: 18px;  
+}
+}
+@media (max-width: 1440px) {
+  .foya-text {
+    font-size: 80%;
+  }
+  .value-heading {
+    font-size: 180%;
+  }
+  .core-text {
+    font-size: 73%;
+  }
+  .vision {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1198px) {
+  .core-text {
+    margin-top: 50px;
+    font-size: 100%;
+  }
+  .caro-img {
+    width: 100%;
+    height: 100%;
+  }
+  .foya-text {
+    font-size: 100%;
+    margin-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
+  #jas-heading {
+    font-size: 35px;
+  }
+  .jas-p {
+    font-size: 15px;
+  }
+  .about-us {
+    margin-top: 50px;
+  }
+  .vision-mission {
+    padding: 50px 0;
+  }
+  .vision,
+  .mission {
+    font-size: 90%;
+    margin-bottom: 50px;
+  }
+  .vision-img {
+    width: 50px;
+    height: 50px;
+  }
+  .mission-img {
+    width: 40px;
+    height: 40px;
+  }
+  .vision-mission .heading {
+    margin: 2px;
+    font-size: 120%;
+    font-weight: bold;
+  }
+  .our-services {
+    margin-top: 40px;
+  }
+  .service-box {
+    margin-left: 0;
+  }
+  .team-box{
+    width: 500px;
+    margin-right: 0;
+  }
+  .contact {
+    margin-top: 40px;
+  }
+  .foot-links .nav-link {
+    color: #f5f8fd !important;
+  }
+}
